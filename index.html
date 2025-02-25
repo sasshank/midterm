@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Default theme is set to dark mode -->
+<body class="dark"> 
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+            </div>
+            <div>
+                <button data-bs-theme-value="dark">Dark</button>
+                <button data-bs-theme-value="light">Light</button>
+                <button>Contact Me</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <div class="left-column">
+            <p><strong>Factorial calculator.</strong><br>
+               n! = 1x2x3 ... xn.<br>
+               e.g. 5! = 120.
+            </p>
+        </div>
+        <div class="right-column">
+            <input type="number" id="number-input" placeholder="Enter a number" class="rounded-box">
+            <div class="result-screen rounded-box" id="result-screen"></div>
+        </div>
+        <div class="left-column">
+            <button id="calculate-button" class="rounded-box">Enter</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Sashank Kandel-Simple Factorial Calculator © 2025
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
